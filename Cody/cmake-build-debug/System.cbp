@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="System"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/Feng/Desktop/Cody/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/Feng/Desktop/Cody/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/Feng/Desktop/Cody/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/Feng/Desktop/Cody/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/Feng/Desktop/Cody/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="System">
+				<Option output="/Users/Feng/Desktop/Cody/cmake-build-debug/System" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Feng/Desktop/Cody/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/16/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/Feng/Desktop/Cody/cmake-build-debug/Makefile&quot;  VERBOSE=1 System"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/Feng/Desktop/Cody/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/Feng/Desktop/Cody/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/Feng/Desktop/Cody/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="System/fast">
+				<Option output="/Users/Feng/Desktop/Cody/cmake-build-debug/System" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Feng/Desktop/Cody/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/16/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/Feng/Desktop/Cody/cmake-build-debug/Makefile&quot;  VERBOSE=1 System/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/Feng/Desktop/Cody/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/Feng/Desktop/Cody/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/Feng/Desktop/Cody/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/Feng/Desktop/Cody/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/Feng/Desktop/Cody/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/Feng/Desktop/Cody/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/Feng/Desktop/Cody/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/Feng/Desktop/Cody/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/Feng/Desktop/Cody/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/Feng/Desktop/Cody/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/Feng/Desktop/Cody/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/Feng/Desktop/Cody/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/Feng/Desktop/Cody/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/Feng/Desktop/Cody/head/add.h">
+			<Option target="System"/>
+		</Unit>
+		<Unit filename="/Users/Feng/Desktop/Cody/head/delete.h">
+			<Option target="System"/>
+		</Unit>
+		<Unit filename="/Users/Feng/Desktop/Cody/head/mainInterface.h">
+			<Option target="System"/>
+		</Unit>
+		<Unit filename="/Users/Feng/Desktop/Cody/head/modify.h">
+			<Option target="System"/>
+		</Unit>
+		<Unit filename="/Users/Feng/Desktop/Cody/head/search.h">
+			<Option target="System"/>
+		</Unit>
+		<Unit filename="/Users/Feng/Desktop/Cody/head/show.h">
+			<Option target="System"/>
+		</Unit>
+		<Unit filename="/Users/Feng/Desktop/Cody/head/sort.h">
+			<Option target="System"/>
+		</Unit>
+		<Unit filename="/Users/Feng/Desktop/Cody/head/statistics.h">
+			<Option target="System"/>
+		</Unit>
+		<Unit filename="/Users/Feng/Desktop/Cody/main.c">
+			<Option target="System"/>
+		</Unit>
+		<Unit filename="/Users/Feng/Desktop/Cody/src/add.c">
+			<Option target="System"/>
+		</Unit>
+		<Unit filename="/Users/Feng/Desktop/Cody/src/delete.c">
+			<Option target="System"/>
+		</Unit>
+		<Unit filename="/Users/Feng/Desktop/Cody/src/mainInterface.c">
+			<Option target="System"/>
+		</Unit>
+		<Unit filename="/Users/Feng/Desktop/Cody/src/modify.c">
+			<Option target="System"/>
+		</Unit>
+		<Unit filename="/Users/Feng/Desktop/Cody/src/search.cpp">
+			<Option target="System"/>
+		</Unit>
+		<Unit filename="/Users/Feng/Desktop/Cody/src/show.c">
+			<Option target="System"/>
+		</Unit>
+		<Unit filename="/Users/Feng/Desktop/Cody/src/sort.c">
+			<Option target="System"/>
+		</Unit>
+		<Unit filename="/Users/Feng/Desktop/Cody/src/statistics.cpp">
+			<Option target="System"/>
+		</Unit>
+		<Unit filename="/Users/Feng/Desktop/Cody/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
